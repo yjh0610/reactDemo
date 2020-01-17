@@ -1,0 +1,24 @@
+.person {
+    color: aqua;
+}
+
+
+/* css模块化只会对类选择器和id选择器生效 */
+
+
+/* css模块化对标签选择器无效 */
+
+
+/* p {
+    color: blueviolet;
+} */
+
+
+/*被:global包裹的类名可以不被模块化，会全局生效*/
+
+:global(.title) {
+    color: red;
+}
+
+
+/*被:local包裹的类名会被模块化，仅在被导入的组件中生效*/
