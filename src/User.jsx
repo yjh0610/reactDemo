@@ -14,6 +14,7 @@ export default class User extends Component{
     //组件内部必须要有render函数   作用：渲染当前组件对应的虚拟dom
     render(){
         //render函数内部必须返回合法的jsx 虚拟dom结构
-        return <div><p> user组件 </p></div>
+        return <div><p> user组件 </p><p> user组件 </p><p> user组件 </p><p> user组件 </p><p> user组件 </p></div>
+        
     }
 }
